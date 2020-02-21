@@ -1,0 +1,198 @@
+@font-face {
+    src: url(MeriendaOne-Regular.ttf);
+    font-family: mero;
+}
+
+
+
+.loginbox {
+   width: 60%;
+	opacity:80%;
+    height: 615px;
+    background: #000;
+    color: #fff;
+    top: 65%;
+    left: 50%;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.avatar {
+    width: 90px;
+    height: 85 px;
+    border-radius: 50%;
+    position: absolute;
+	
+    top: -30px;
+    left: calc(50% - 50px);
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0px 30px;
+    
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p {
+    margin: 0;
+    padding: 0 0px 10px;
+    font-weight: bold;
+}
+
+.loginbox input {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+    .loginbox input[type="text"], input[type="password"], input[type="email"], input[type="number"] {
+        border: none;
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        height: auto;
+        color: #fff;
+        font-size: 16px;
+    }
+
+    .loginbox input[type="submit"], input[type="button"] {
+        border: none;
+        outline: none;
+        height: autopx;
+        background: #05c205;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 20px;
+    }
+
+        .loginbox input[type="submit"]:hover {
+            cursor: pointer;
+            background: #ffc107;
+            color: #000;
+        }
+
+.btn {
+    border: none;
+    outline: none;
+   
+    height: 40px;
+    background: #05c205;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+    .btn :hover {
+        cursor: pointer;
+        background: #ffc107;
+        color: #000;
+    }
+
+.loginbox a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+    .loginbox a:hover {
+        color: #ffc107;
+    }
+
+.typed {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #05c205;
+}
+
+#auto {
+    font-family: mero;
+    font-size: 40px;
+    height: auto;
+    font-style: oblique;
+    width: auto;
+    color: #fff;
+    top: 8%;
+    left: 1%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 0px 0px;
+}
+.btn1{
+    border: none;
+    outline: none;
+    height: autopx;
+    background: #05c205;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+    .btn1:hover{
+        cursor: pointer;
+        background: #ffc107;
+        color: #000;
+    }
+.Grid {
+    background-color: #fff;
+    margin: 500px 0 10px 0;
+    border: solid 1px #525252;
+    border-collapse: collapse;
+    font-family: Calibri;
+    color: #474747;
+}
+
+    .Grid td {
+        padding: 2px;
+        border: solid 1px #c1c1c1;
+    }
+
+    .Grid th {
+        padding: 4px 2px;
+        color: #fff;
+        background: #363670 url(Images/grid-header.png) repeat-x top;
+        border-left: solid 1px #525252;
+        font-size: 0.9em;
+    }
+
+    .Grid .alt {
+        background: #fcfcfc url(Images/grid-alt.png) repeat-x top;
+    }
+
+    .Grid .pgr {
+        background: #363670 url(Images/grid-pgr.png) repeat-x top;
+    }
+
+        .Grid .pgr table {
+            margin: 3px 0;
+        }
+
+        .Grid .pgr td {
+            border-width: 0;
+            padding: 0 6px;
+            border-left: solid 1px #666;
+            font-weight: bold;
+            color: #fff;
+            line-height: 12px;
+        }
+
+        .Grid .pgr a {
+            color: Gray;
+            text-decoration: none;
+        }
+
+            .Grid .pgr a:hover {
+                color: #000;
+                text-decoration: none;
+            }
+.dropdown {
+    border: none;
+    outline: none;
+    height: autopx;
+    background: #05c205;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}

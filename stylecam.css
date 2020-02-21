@@ -1,0 +1,321 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:none;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+
+
+#frm{
+
+    text-align:left;
+}
+
+.loginbox {
+    width: 22%;
+    height: 380px;
+  
+    color: #fff;
+    top: 63%;
+    left: 25%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    background: #258efb;
+}
+.loginbox2 {
+    width: 40%;
+    height: 400px;
+   
+    color: #fff;
+    top: 53%;
+    left: 70%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+  
+}
+
+.loginbox3 {
+    width: 40%;
+    height: 400px;
+    color: #000;
+    top: 50%;
+    left: 45%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.loginbox4 {
+    width: 18%;
+    height: auto;
+    color: #fff;
+
+
+ 
+   
+    padding: 10px 10px;
+    background: #258efb;
+    position:static;
+    margin-top:10%;
+    margin-left:80%;
+}
+
+.lft{
+
+margin-left:0px;
+
+}
+
+
+.rgt{
+
+    margin-right:0px;
+
+}
+
+.lgo{
+
+
+    float:right;
+    margin-right:0px;
+    position:relative;
+}
+
+#divImages img{
+
+    padding-bottom:7%;
+}
+
+.loginborder {
+    align-items: center;
+    width: auto;
+    color: #2E94DE;
+    border: solid;
+    align-items: center;
+    height: 350px;
+    padding: 10%;
+    border-radius: 15px;
+    height: 380px;
+    padding: 10%;
+}
+
+.loginborder2 {
+    width: auto;
+    font-size: 48px;
+    color: #258efb;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+
+.loginbox5 {
+    width: 22%;
+    height: 380px;
+    background: #258efb;
+    color: #fff;
+    top: 60%;
+    left: 14%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius:15px;
+}
+
+
+.loginbox6 {
+    width: 40%;
+    height: auto;
+    color: #000;
+    top: 95%;
+    left: 64%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+    .loginbox input[type="submit"] {
+        border: none;
+        outline: none;
+        height: 40px;
+        background: #258efb;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 20px;
+        width: 30%;
+    }
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.loginbox a:hover
+{
+    color: #ffc107;
+}
+#auto {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 36px;
+	font-style: italic;
+	color: #0F0;
+	background-color: #F00;
+	position: absolute;
+    float: left;
+	height: 50px;
+	width:auto;
+	margin-top: 60px;
+	margin-left: 50px;
+}
+
+
+#a1 {
+    width: 40%;
+    height: auto;
+    color: #000;
+    top: 32%;
+    left: 29.5%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+#a2 {
+    width: 40%;
+    height: auto;
+    color: #000;
+    top: 40%;
+    left: 40%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+#btnCapture, #btnDisplay {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #258efb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 30%;
+}
+
+    #btnCapture:hover, #btnDisplay:hover {
+        cursor:pointer;
+        background: #ffc107;
+        color: #000;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
